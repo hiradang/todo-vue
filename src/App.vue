@@ -1,10 +1,20 @@
 <template>
   <nav>
-    <router-link to="/" class="text-3xl text-red-500">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <Header />
   </nav>
-  <router-view />
+  <div class="px-4 mt-8 flex flex-col items-center">
+    <router-view />
+  </div>
 </template>
+
+<script>
+import Header from "@/components/Header.vue";
+export default {
+  components: {
+    Header,
+  },
+};
+</script>
 
 <style>
 @import "/src/assets/style";
