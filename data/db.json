@@ -3,7 +3,7 @@
     {
       "taskName": "Learn Vue",
       "description": "Watch Youtube Video",
-      "status": "Doing",
+      "status": "Done",
       "id": 1
     },
     {
@@ -11,6 +11,18 @@
       "description": "Read a new Book",
       "status": "Doing",
       "id": 2
+    },
+    {
+      "taskName": "Study",
+      "description": "Study Vue Router",
+      "status": "Doing",
+      "id": 3
+    },
+    {
+      "taskName": "Relax",
+      "description": "Listen to music",
+      "status": "Doing",
+      "id": 4
     }
   ]
 }

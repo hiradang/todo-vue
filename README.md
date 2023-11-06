@@ -1,5 +1,15 @@
 # todo-vue
 
+To run the project, run the two following commands in the same time in 2 terminals.
+
+```
+yarn serve
+```
+
+```
+yarn db
+```
+
 # JSON Server
 
 To run local server and fake REST API
